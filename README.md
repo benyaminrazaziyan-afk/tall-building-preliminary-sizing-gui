@@ -65,3 +65,17 @@ Requirements
 Python 3.10+
 Standard library only
 No external packages are required.
+
+![example output](1.png)
+
+
+![example output](2.png)
+
+![example output](3.png)
+
+
+![example output](4.png)
+
+
+
+![example output](5.png)

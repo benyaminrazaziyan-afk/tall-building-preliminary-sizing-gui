@@ -10,7 +10,7 @@ allows square and triangular conceptual plans
 estimates structural response using a simplified stiffness-based approach
 computes the fundamental period from:
 ```math
-T = 2\\\\pi\\\\sqrt{\\\\frac{M}{K}}
+$$ T = 2\pi \sqrt{\frac{M}{K}} $$
 ```
 produces a graphical plan view on a Tkinter canvas
 displays:

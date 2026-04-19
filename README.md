@@ -1,5 +1,29 @@
 Tall Building Preliminary Sizing GUI
 A graphical preliminary sizing tool for reinforced-concrete tall buildings.  
+The structural system is initially idealized as an equivalent single-degree-of-freedom (SDOF) model for rapid preliminary estimation of the fundamental period based on global mass and stiffness:
+
+$$
+M \ddot{u}(t) + K\,u(t) = 0
+$$
+
+$$
+T = 2\pi \sqrt{\frac{M}{K}}
+$$
+
+where $M$ is the effective modal mass and $K$ is the equivalent lateral stiffness of the system.
+
+For improved accuracy, the model is subsequently refined using a multi-degree-of-freedom (MDOF) representation:
+
+$$
+[M]\{\ddot{u}\} + [K]\{u\} = 0
+$$
+
+$$
+[K]\{\phi\} = \omega^2 [M]\{\phi}
+$$
+
+For each mode, the natural period is given by $T_i = \frac{2\pi}{\omega_i}$.
+
 This project is intended for concept development and initial member sizing, not for final structural design.
 What the program does
 The tool provides a conceptual workflow for tall-building preliminary design:

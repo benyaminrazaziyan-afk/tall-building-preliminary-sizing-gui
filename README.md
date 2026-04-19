@@ -1,5 +1,7 @@
 Tall Building Preliminary Sizing GUI
+
 A graphical preliminary sizing tool for reinforced-concrete tall buildings.  
+
 The structural system is initially idealized as an equivalent single-degree-of-freedom (SDOF) model for rapid preliminary estimation of the fundamental period based on global mass and stiffness:
 
 $$
